@@ -1,0 +1,79 @@
+body{
+  background-color: #2879ff;
+  background-image: url(https://www.colorhexa.com/2879ff.png);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    left: -200px;
+    transition: all 500ms linear;
+    z-index: 1;
+  }
+  
+  #sidebar.active {
+    left: 0px;
+  }
+  
+  #sidebar ul li {
+    color: rgba(230, 230, 230, .9);
+  
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    text-align: center;
+  }
+  
+  #sidebar .toggle-btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+  }
+  
+  #sidebar .toggle-btn span {
+    display: block;
+  
+
+    border: 3px solid #000;
+  }
+
+  .hamburger-icon {
+    margin: 0;
+   
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hamburger-icon span {
+    width: 40px;
+    background-color: #000;
+    height: 5px;
+    display: block;
+    margin-bottom: 6px;
+}
+.hamburger-icon span:last-child {
+    margin-bottom:0px;
+}
+
+.imgRedonda {
+
+  border-radius:45px;
+}
+.estilo:hover img{
+  width: 100px;
+  height: 100px;
+}
+#buscar{
+  padding-bottom: 15px;
+}
+.input-group{
+  z-index: -1;
+}
