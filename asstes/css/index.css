@@ -39,7 +39,9 @@
 }
 
 
-
+#inicio{
+  background-color: transparent;
+}
 .padlock__face {
   height: 25%;
   width: 40%;
@@ -176,7 +178,7 @@
 
 
 #login{
-    background-color: #fff; 
+    background-color: #ffffff50; 
     
 }
 
@@ -196,13 +198,17 @@
 }
 #loginPrimero{
     padding-top: 50px;
-
+  
     padding-bottom: 60px;
-   
+  
+}
+#inicio{
+
+  opacity:0.9;
 }
 body{
     background-size: 100% 100%;
     display: no-repeat;
-    background-color: #0D6EFD;
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669_640.jpg);
 }
 

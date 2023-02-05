@@ -70,6 +70,13 @@ body{
 .estilo:hover img{
   width: 100px;
   height: 100px;
+
+}
+.esconder{
+  display: none;
+}
+.estilo:hover .esconder{
+  display: block;
 }
 #buscar{
   padding-bottom: 15px;
