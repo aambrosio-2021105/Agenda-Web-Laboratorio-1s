@@ -17,34 +17,117 @@
 
 <body>
   <header>
-
-    <div id="buscar">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 ">
-
+   
+  </header>
+  <div id="encabezado">
+    <div class="container text-center">
+    <div class="row">
+      <div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <div id="sidebar">
+          <div class="toggle-btn">
+            <label style="color: #fff;" class="hamburger-icon">
+              <span style="color: #fff;">&nbsp;</span>
+              <span style="color: #fff;">&nbsp;</span>
+              <span style="color: #fff;">&nbsp;</span>
+            </label>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-            <div class="input-group">
-              <input placeholder="Buscar" class="form-control form-text" type="text" size="15" maxlength="128" />
-              <span class="input-group-btn">
-                <button type="submit" class="btn bg-danger text-white"> <i
-                    class="fa-solid fa-magnifying-glass"></i></button>
-              </span>
-            </div>
-
-          </div>
-          <div class="col-lg-4 col-md-4">
-
-          </div>
+          <br>
+          <ul style="list-style-type: none;">
+          
+            <li><!-- Button trigger modal -->
+              <button type="button" class="btn text-white botones" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                Agregar <i class="fa-solid fa-address-book"></i>
+      
+              </button>
+      
+      
+            </li>
+            <li><!-- Button trigger modal -->
+              <button type="button" class="btn text-white botones" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                Editar <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+      
+      
+            </li>
+      
+            <li>
+              <a href="list.html">
+                <button type="button" class="btn text-white botones" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop2">
+                  Lista de Tareas
+                </button></a>
+      
+            </li>
+            <li>
+              <a href="pefilUsuario.html">
+                <button type="button" class="btn text-white botones" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop2">
+                  Pefil de usuario
+                </button></a>
+      
+            </li>
+            <li>
+              <a href="index.html">
+                <button type="button" class="btn text-white botones" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop2">
+                  Cerrar sesión
+                </button></a>
+            </li>
+            <li>
+              <a href="favoritos.html">
+                <button type="button" class="btn text-white botones" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop2" >
+                  Favoritos
+                </button></a>
+            </li>
+          </ul>
         </div>
       </div>
+      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+        <div id="cabeza">
+          <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
+              <ul>
+                <li>
+                  <p  style="color: #fff;font-family:  fantasy;font-size: 50px;z-index: 1;">User</p>
+                </li>
+               
+                <li>
+                  <img width="180px" height="180px"  
+              src="https://images.vexels.com/media/users/3/135251/isolated/preview/ab893f9074d536e3e940d61f0fc62b39-los-usuarios-firman-en-rojo.png"
+              alt="Logo Fazt" class="logo" >
+                </li>
+              </ul>
+             
+            
+              
+            
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+
+            </div>
+            
+          </div>
+          
+        
+        </div>
+      </div>
+      </div>
     </div>
-  </header>
+    <div  >
+
+    </div>
+  </div>
+  
+  </div>
   <!-- Modal -->
   <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -107,63 +190,12 @@
     </div>
   </div>
   </div>
-  <div id="sidebar">
-    <div class="toggle-btn">
-      <label class="hamburger-icon">
-        <span>&nbsp;</span>
-        <span>&nbsp;</span>
-        <span>&nbsp;</span>
-      </label>
-    </div>
-    <ul style="list-style-type: none;">
-      <li>
-        <img width="150px" height="150px"
-          src="https://images.vexels.com/media/users/3/135251/isolated/preview/ab893f9074d536e3e940d61f0fc62b39-los-usuarios-firman-en-rojo.png"
-          alt="Logo Fazt" class="logo">
-        <h2>User</h2>
-      </li>
-
-
-      <li><!-- Button trigger modal -->
-        <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
-          Agregar <i class="fa-solid fa-address-book"></i>
-
-        </button>
-
-
-      </li>
-      <li><!-- Button trigger modal -->
-        <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
-          Editar <i class="fa-solid fa-pen-to-square"></i>
-        </button>
-
-
-      </li>
-
-      <li>
-        <a href="list.html">
-          <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal"
-            data-bs-target="#staticBackdrop2">
-            Lista de Tareas
-          </button></a>
-
-      </li>
-      <li>
-        <a href="pefilUsuario.html">
-          <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal"
-            data-bs-target="#staticBackdrop2">
-            Pefil de usuario
-          </button></a>
-
-      </li>
-
-    </ul>
-  </div>
+ 
 
   <div class="container text-center">
     <div class="row">
 
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <ul id="foo" class="list-group">
 
         </ul>
@@ -171,10 +203,9 @@
           <li class="list-group-item list-group-item-dark" aria-current="true">Contactos</li>
 
           <li class="list-group-item estilo ">
-            <img width="80px" height="80px" class="imgRedonda"
-              src="https://i.pinimg.com/originals/cf/c1/d8/cfc1d8b69811d4bacb1377e39d5a74c9.jpg">
+            <i class="fa-solid fa-user"></i>
             &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;Josue &nbsp; |&nbsp;&nbsp;Ambrosio
-            &nbsp;&nbsp;|&nbsp;&nbsp;47884587|&nbsp;&nbsp;josue@gmail.com
+           
 
             <div class="esconder">
               <div class="row">
@@ -211,18 +242,52 @@
 
 
               </div>
+              <br>
+
+              <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#exampleModalContacto">
+                Detalles
+              </button>
+              <button type="button" class="btn btn-danger">Elimnar</button>
+              
+           
+              
             </div>
+            <div class="modal fade" id="exampleModalContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Josue Ambrosio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul style="list-style: none;">
+                      <li>
+                        <img width="80px" height="80px" class="imgRedonda"
+                    src="https://i.pinimg.com/originals/cf/c1/d8/cfc1d8b69811d4bacb1377e39d5a74c9.jpg">
+                      </li>
+                      <li>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;47884587|&nbsp;&nbsp;josue@gmail.com
+                        
+                      </li>
+                    </ul>
+                    
 
-
-
-
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </li>
 
-          <li class="list-group-item  estilo"><img width="80px" height="80px" class="imgRedonda"
-              src="https://thumbs.dreamstime.com/b/cara-sonriente-de-la-persona-diversa-108427785.jpg">
+          <li class="list-group-item  estilo">
+            <i class="fa-solid fa-user"></i>
             &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;Elsa &nbsp; |
-            &nbsp;&nbsp;Elizabeth&nbsp;&nbsp;|&nbsp;&nbsp;47452187|&nbsp;&nbsp;elsa@gmail.com
+            &nbsp;&nbsp;Elizabeth&nbsp;&nbsp;
             <div class="esconder">
               <div class="row">
 
@@ -258,54 +323,118 @@
 
 
               </div>
+              <br>
+
+              <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#exampleModalContacto1">
+                Detalles
+              </button>
+              
+              <button type="button" class="btn btn-danger">Elimnar</button>
+              
+            </div>
+            <div class="modal fade" id="exampleModalContacto1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Elsa Elizabeth</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul style="list-style: none;">
+                      <li>
+                        <img width="80px" height="80px" class="imgRedonda"
+              src="https://thumbs.dreamstime.com/b/cara-sonriente-de-la-persona-diversa-108427785.jpg">
+                      </li>
+                      <li>
+                        |&nbsp;&nbsp;47452187|&nbsp;&nbsp;elsa@gmail.com
+                      </li>
+                    </ul>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     
+                  </div>
+                </div>
+              </div>
             </div>
           </li>
-          <li class="list-group-item estilo"><img width="80px" height="80px" class="imgRedonda"
+          <li class="list-group-item estilo">
+            <i class="fa-solid fa-user"></i>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;Gabriela &nbsp;
+            <div class="esconder">
+              <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+                  <i class="fa-solid fa-phone"></i>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+
+                  <i class="fa-solid fa-message"></i>
+
+
+
+
+                </div>
+
+              </div>
+              <br>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                  <i class="fa-regular fa-star"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+                  <i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                  <i class="fa-solid fa-delete-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                  <i class="fa-solid fa-share"></i>&nbsp;&nbsp;
+
+                </div>
+
+
+              </div>
+              <br>
+
+              <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#exampleModalContacto8">
+                Detalles
+              </button>
+              
+              <button type="button" class="btn btn-danger">Elimnar</button>
+              
+            </div>
+            <div class="modal fade" id="exampleModalContacto8" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">Gabriela Mendizabal</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul style="list-style: none;">
+                      <li>
+                        <img width="80px" height="80px" class="imgRedonda"
               src="https://es.digitaltrends.com/wp-content/uploads/2019/02/screen-shot-2019-02-15-at-19-16-58.jpg?p=1">
-            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;Gabriela &nbsp;|&nbsp;&nbsp;
-            Mendizabal&nbsp;&nbsp;|&nbsp;&nbsp;89654587|&nbsp;&nbsp;gabriela@gmail.com
-
-            <div class="esconder">
-              <div class="row">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-
-                  <i class="fa-solid fa-phone"></i>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-message"></i>
-
-
-
-
+                      </li>
+                      <li>
+                        |&nbsp;&nbsp;89654587|&nbsp;&nbsp;gabriela@gmail.com
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     
+                  </div>
                 </div>
-
-              </div>
-              <br>
-
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                  <i class="fa-regular fa-star"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-                  <i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-delete-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-share"></i>&nbsp;&nbsp;
-
-                </div>
-
-
               </div>
             </div>
           </li>
-          <li class="list-group-item estilo"></i><img width="80px" height="80px" class="imgRedonda"
-              src="data:image/jpeg;base64,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">
-            &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;Fernando &nbsp;| &nbsp;&nbsp;Juarez &nbsp;&nbsp;|&nbsp;&nbsp;
-            56324587|&nbsp;&nbsp;fernando@gmail.com
+          <li class="list-group-item estilo"></i>
+            <i class="fa-solid fa-user"></i>
+            &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;Fernando &nbsp;| &nbsp;&nbsp;Juarez &nbsp;&nbsp;
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
               aria-labelledby="staticBackdropLabel" aria-hidden="true">
             </div>
@@ -344,12 +473,46 @@
 
 
               </div>
+              <br>
+
+              <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#exampleModalContacto3">
+                Detalles
+              </button>
+              
+              <button type="button" class="btn btn-danger">Elimnar</button>
+              
+            </div>
+            <div class="modal fade" id="exampleModalContacto3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Fernando Juarez</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul style="list-style: none;">
+                      <li>
+                        <img width="80px" height="80px" class="imgRedonda"
+              src="data:image/jpeg;base64,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">
+                      </li>
+                      <li>
+                        |&nbsp;&nbsp;
+            56324587|&nbsp;&nbsp;fernando@gmail.com
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     
+                  </div>
+                </div>
+              </div>
             </div>
           </li>
-          <li class="list-group-item estilo"><img width="80px" height="80px" class="imgRedonda"
-              src="https://junglamoderna.com/wp-content/uploads/2019/02/esta-persona-no-exist-297x300.jpg">
+          <li class="list-group-item estilo">
+            <i class="fa-solid fa-user"></i>
             &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;David &nbsp;
-            |&nbsp;&nbsp;Quiñonez&nbsp;&nbsp;|&nbsp;&nbsp;47885637|&nbsp;&nbsp;david@gmail.com
+            |&nbsp;&nbsp;Quiñonez&nbsp;&nbsp;
             <div class="esconder">
               <div class="row">
 
@@ -385,12 +548,45 @@
 
 
               </div>
+              <br>
+
+              <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#exampleModalContacto4">
+                Detalles
+              </button>
+              
+              <button type="button" class="btn btn-danger">Elimnar</button>
+              
+            </div>
+            <div class="modal fade" id="exampleModalContacto4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">JDavid Quiñonez</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul style="list-style: none;">
+                      <li>
+                        <img width="80px" height="80px" class="imgRedonda"
+              src="https://junglamoderna.com/wp-content/uploads/2019/02/esta-persona-no-exist-297x300.jpg">
+                      </li>
+                      <li>
+                        |&nbsp;&nbsp;47885637|&nbsp;&nbsp;david@gmail.com
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     
+                  </div>
+                </div>
+              </div>
             </div>
           </li>
-          <li class="list-group-item estilo"><img width="80px" height="80px" class="imgRedonda"
-              src="https://holatelcel.com/wp-content/uploads/2018/11/HEAD-face-recognition.jpg"> &nbsp;&nbsp;&nbsp;|
+          <li class="list-group-item estilo"> 
+            <i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;|
             &nbsp;&nbsp;Fernando &nbsp;
-            |&nbsp;&nbsp;Chavez&nbsp;&nbsp;|&nbsp;&nbsp;78541240|&nbsp;&nbsp;fernando@gmail.com
+            |&nbsp;&nbsp;Chavez&nbsp;&nbsp;
             <div class="esconder">
               <div class="row">
 
@@ -425,13 +621,46 @@
                 </div>
 
 
+              </div>
+              <br>
+
+              <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#exampleModalContacto5">
+                Detalles
+              </button>
+              
+              <button type="button" class="btn btn-danger">Elimnar</button>
+              
+            </div>
+            <div class="modal fade" id="exampleModalContacto5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Fernando Chavez</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul style="list-style: none;">
+                      <li>
+                        <img width="80px" height="80px" class="imgRedonda"
+              src="https://holatelcel.com/wp-content/uploads/2018/11/HEAD-face-recognition.jpg">
+                      </li>
+                      <li>
+                        |&nbsp;&nbsp;78541240|&nbsp;&nbsp;fernando@gmail.com
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     
+                  </div>
+                </div>
               </div>
             </div>
           </li>
-          <li class="list-group-item estilo"><img width="80px" height="80px" class="imgRedonda"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDNafnGz4-5GA6T6dnud23z1W92P8WS9-ykdBUetDcNRB4BtJ5xvv2qzmu47-dPPFdP4&usqp=CAU">
+          <li class="list-group-item estilo">
+            <i class="fa-solid fa-user"></i>
             &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;Josue &nbsp;
-            |&nbsp;&nbsp;Villeda&nbsp;&nbsp;|&nbsp;&nbsp;8965425|&nbsp;&nbsp;josue@gmail.com
+            |&nbsp;&nbsp;Villeda&nbsp;&nbsp;
             <div class="esconder">
               <div class="row">
 
@@ -466,137 +695,45 @@
                 </div>
 
 
+              </div>
+              <br>
+
+              <button type="button" class="btn bg-danger text-white" data-bs-toggle="modal" data-bs-target="#exampleModalContacto6">
+                Detalles
+              </button>
+              
+              <button type="button" class="btn btn-danger">Elimnar</button>
+              
+            </div>
+            <div class="modal fade" id="exampleModalContacto6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Josue Villeda</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul style="list-style: none;">
+                      <li>
+                        <img width="80px" height="80px" class="imgRedonda"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDNafnGz4-5GA6T6dnud23z1W92P8WS9-ykdBUetDcNRB4BtJ5xvv2qzmu47-dPPFdP4&usqp=CAU">
+                      </li>
+                      <li>
+                        |&nbsp;&nbsp;8965425|&nbsp;&nbsp;josue@gmail.com
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     
+                  </div>
+                </div>
               </div>
             </div>
           </li>
         </ol>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <ul class="list-group">
-          <li class="list-group-item list-group-item-action list-group-item-dark" aria-disabled="true">Favoritos</li>
-          <li class="list-group-item  estilo"><img width="80px" height="80px" class="imgRedonda"
-              src="https://thumbs.dreamstime.com/b/cara-sonriente-de-la-persona-diversa-108427785.jpg">
-            &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;Elsa &nbsp; | &nbsp;&nbsp;Elizabeth&nbsp;&nbsp;|&nbsp;&nbsp;
-            <div class="esconder">
-              <div class="row">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-
-                  <i class="fa-solid fa-phone"></i>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-message"></i>
-
-
-
-
-                </div>
-
-              </div>
-              <br>
-
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                  <i class="fa-regular fa-star"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-                  <i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-delete-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-share"></i>&nbsp;&nbsp;
-
-                </div>
-
-
-              </div>
-            </div>
-          </li>
-          <li class="list-group-item estilo"><img width="80px" height="80px" class="imgRedonda"
-              src="https://es.digitaltrends.com/wp-content/uploads/2019/02/screen-shot-2019-02-15-at-19-16-58.jpg?p=1">
-            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;Gabriela &nbsp;|&nbsp;&nbsp; Mendizabal&nbsp;&nbsp;|&nbsp;&nbsp; 
-            <div class="esconder">
-              <div class="row">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-
-                  <i class="fa-solid fa-phone"></i>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-message"></i>
-
-
-
-
-                </div>
-
-              </div>
-              <br>
-
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                  <i class="fa-regular fa-star"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-                  <i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-delete-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-share"></i>&nbsp;&nbsp;
-
-                </div>
-
-
-              </div>
-            </div>
-          </li>
-          
-            <li class="list-group-item estilo"></i><img width="80px" height="80px" class="imgRedonda"
-              src="data:image/jpeg;base64,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">
-            &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;Fernando &nbsp;| &nbsp;&nbsp;Juarez &nbsp;&nbsp;|&nbsp;&nbsp;
-            <div class="esconder">
-              <div class="row">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-
-                  <i class="fa-solid fa-phone"></i>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-message"></i>
-
-
-
-
-                </div>
-
-              </div>
-              <br>
-
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                  <i class="fa-regular fa-star"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-                  <i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-delete-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                  <i class="fa-solid fa-share"></i>&nbsp;&nbsp;
-
-                </div>
-
-
-              </div>
-            </div>  
-          </li>
-        </ul>
-      </div>
+      
     </div>
   </div>
 

@@ -1,13 +1,4 @@
-
-body{
-    background-size: 100% 100%;
-    display: no-repeat;
-    background-color: #292929;
-}
-
-
-  
-  #sidebar {
+#sidebar {
     position: fixed;
     width: 200px;
     height: 100%;
@@ -16,7 +7,10 @@ body{
     transition: all 500ms linear;
     z-index: 1;
   }
-  
+  .imgRedonda {
+
+  border-radius:45px;
+}
   #sidebar.active {
     left: 0px;
   }
@@ -64,3 +58,15 @@ body{
 .hamburger-icon span:last-child {
     margin-bottom:0px;
 }
+body{
+    background-color: #292929;
+}
+.esconder{
+    display: none;
+  }
+  .estilo:hover .esconder{
+    display: block;
+    background-color: #29292920;
+  }
+
+  

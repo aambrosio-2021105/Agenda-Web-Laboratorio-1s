@@ -178,7 +178,7 @@
 
 
 #login{
-    background-color: #ffffff50; 
+    background-color: #fff; 
     
 }
 
@@ -209,6 +209,6 @@
 body{
     background-size: 100% 100%;
     display: no-repeat;
-    background-image: url(https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669_640.jpg);
+    background-color: #292929;
 }
 

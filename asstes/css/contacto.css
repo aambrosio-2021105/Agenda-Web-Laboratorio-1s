@@ -1,12 +1,19 @@
 body{
-  background-color: #2879ff;
-  background-image: url(https://www.colorhexa.com/2879ff.png);
+  background-color: #292929;
+ 
 }
-
+#cabeza{
+  
+}
 * {
     margin: 0px;
     padding: 0px;
   }
+  #encabezado{
+  
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/153/805/non_2x/black-background-abstract-geometric-wall-design-illustration-vector.jpg);
+  }
+  
   
   #sidebar {
     position: fixed;
@@ -21,7 +28,10 @@ body{
   #sidebar.active {
     left: 0px;
   }
-  
+  .botones:hover{
+    background-color: #FEC742;
+    color: #000;
+  }
   #sidebar ul li {
     color: rgba(230, 230, 230, .9);
   
@@ -41,7 +51,7 @@ body{
     display: block;
   
 
-    border: 3px solid #000;
+    border: 3px solid #fff;
   }
 
   .hamburger-icon {
@@ -77,6 +87,7 @@ body{
 }
 .estilo:hover .esconder{
   display: block;
+  background-color: #29292920;
 }
 #buscar{
   padding-bottom: 15px;
